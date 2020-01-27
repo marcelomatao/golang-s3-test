@@ -1,0 +1,22 @@
+{
+    "Logs": {
+        "Common": {
+            "Level": "debug",
+            "JSON": true,
+            "Stdout": true,
+            "File": "/tmp/log/fetcher/fetcher.log",
+            "RotationPeriod": "daily",
+            "Symlink": true,
+            "TimeFormat": "2006-01-02_15:04:03"
+        },
+        "Debug": {
+            "File": "/tmp/log",
+            "FileMode": "0775",
+            "FileUser": "root"
+        }
+    },
+    "S3Retries": 3,
+    "S3Region": "us-east-1",
+    "S3Bucket": "s3-golang-test",
+    "S3Bucket2": "s3-golang-test2"
+}
